@@ -1,5 +1,6 @@
 
  let selectedRow=null;
+
 const submitForm=()=>{
     const formData=readFormData();
 
@@ -19,6 +20,7 @@ const submitForm=()=>{
 const readFormData=()=>{
 
 const formData={};
+
 formData["code"]=document.getElementById("code").value;
 formData["name"]=document.getElementById("name").value;
 formData["qty"]=document.getElementById("qty").value;
@@ -31,7 +33,7 @@ return formData
 const insertRecord=(data)=>{
     const table=document.getElementById("products").getElementsByTagName("tbody")[0];
     const newRow=table.insertRow(table.length);
-console.log(table)
+   console.log(newRow)
    const cell1=newRow.insertCell(0);
    cell1.innerHTML=data.code;
    
