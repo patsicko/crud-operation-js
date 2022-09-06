@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container container-fluid">
+     
+    <form class="form" autocomplete="off" onsubmit=" event.preventDefault() ; submitForm()">
+        <h1>Fill the form below</h1>
+        <form-group><label for="">Product code</label><input type="text" name="code"  class="form-control" id="code"></form-group>
+        <form-group><label for=""> Product name</label><input type="text" name="name" class="form-control" id="name"></form-group>
+        <form-group><label for=""> Quantity</label><input type="number" name="quantity" class="form-control" id="qty"></form-group>
+        <form-group><label for="">Price</label><input type="text" name="price" class="form-control" id="price"></form-group>
+       <br>
+        <button type="submit" class="btn btn-success">submit</button>
+        <button class="btn btn-warning " id="reset" type="reset" >reset</button>
+    </form>
+    <table class="table" id="products">
+        <thead>
+            <tr>
+                <th>Product code</th>
+                <th>Product name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+   </div>
+
+
+</body>
+<script src="index.js"></script>
+</html>

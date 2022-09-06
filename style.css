@@ -1,0 +1,27 @@
+.form{
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 2px solid rgb(224, 217, 217);
+    padding: 80px 40px 20px 20px;
+    height: 600px;
+    background-color: rgb(162, 204, 226);
+    border-radius: 8px;
+    
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 700px;
+}
+.table{
+    width: 70%;
+    background-color: aliceblue;
+    margin-top: 50px;
+    height: 600px;
+    
+}
+
