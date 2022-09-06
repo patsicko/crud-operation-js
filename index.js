@@ -45,8 +45,8 @@ console.log(table)
    cell4.innerHTML=data.price;
    
     const cell5=newRow.insertCell(4);
-    cell5.innerHTML=`<button onClick="onEdit(this)" class="btn btn-primary btn-sm"><i class="fa-light fa-folder-open"></i></button>
-    <button onClick="onDelete(this)"  class="btn btn-danger btn-sm">delete</button>`
+    cell5.innerHTML=`<button onClick="onEdit(this)" class="btn btn-primary btn-sm"><i class="fa-solid fa-folder-open"></i></button>
+    <button onClick="onDelete(this)"  class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button>`
 }
 
 
